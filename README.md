@@ -25,10 +25,16 @@ Hace falta un mod de cliente: **Vencord**, **Equicord**, **Vesktop** o **BetterD
 En **Vencord → Temas → Temas en línea**, pega:
 
 ```
-https://cdn.jsdelivr.net/gh/<usuario>/<repo>@main/dist/RoundedCatppuccinMocha.theme.css
+https://cdn.jsdelivr.net/gh/xjuanfxx/RoundedCatppuccin@main/dist/RoundedCatppuccinMocha.theme.css
 ```
 
-(Cambia `<usuario>/<repo>` por el de este repositorio).
+Solo oscuro:
+
+```
+https://cdn.jsdelivr.net/gh/xjuanfxx/RoundedCatppuccin@main/dist/RoundedCatppuccinMocha-DarkOnly.theme.css
+```
+
+jsDelivr guarda en caché la rama `main` hasta 12 horas, así que los cambios pueden tardar un poco en llegar.
 
 > Si antes usabas RoundedDiscord o Catppuccin por separado, quita sus enlaces de *Temas en línea* y cualquier `@import` de *QuickCSS* para no cargarlos dos veces.
 
